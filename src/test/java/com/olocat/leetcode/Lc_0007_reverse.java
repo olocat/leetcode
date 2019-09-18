@@ -7,7 +7,7 @@ public class Lc_0007_reverse {
 		if(x>=0)
 			return Integer.parseInt(new StringBuffer(String.valueOf(x)).reverse().toString());
 		else
-			return
+			return 0;
 	}
 	@Test
 	public void show(){
